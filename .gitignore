@@ -1,0 +1,12 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# Never commit secrets
+.env
+*.key
+.clasp.json
+
+# Google Apps Script local artifacts
+node_modules/
